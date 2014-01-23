@@ -7,6 +7,7 @@ module SchoolFriend
       api_method :delete_album
       api_method :edit_album
       api_method :get_albums
+      api_method :get_photos
       api_method :get_photo_info
       api_method :get_photo_marks,       session_only: true
       api_method :get_user_album_photos
